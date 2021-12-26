@@ -3,6 +3,7 @@ themes=(
 	attila
 	massively
 	bleak
+	london
 )
 
 for theme in "${themes[@]}"
