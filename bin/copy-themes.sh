@@ -1,8 +1,6 @@
 themes=(
 	casper
-	attila
 	massively
-	bleak
 	london
 )
 

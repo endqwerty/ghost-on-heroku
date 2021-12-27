@@ -10,8 +10,6 @@
   "private": true,
   "version": "4.9.3",
   "dependencies": {
-    "attila": "github:zutrinken/attila#3.1.0",
-    "bleak": "github:zutrinken/bleak#1.6.0",
     "casper": "github:tryghost/casper#v4.1.0",
     "ghost": ">=4.9.3",
     "ghost-storage-adapter-s3": "^2.8.0",
