@@ -11,7 +11,7 @@
   "version": "4.9.3",
   "dependencies": {
     "casper": "github:tryghost/casper#v4.1.0",
-    "ghost": ">=4.9.3",
+    "ghost": "^4.32.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.1.5",
     "ghost-webdav-storage-adapter": ">0.3.5",
