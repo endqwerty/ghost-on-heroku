@@ -2,21 +2,18 @@
 
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
-[![GitHub issues](https://img.shields.io/github/issues/intra-sh/ghost-on-heroku)](https://github.com/intra-sh/ghost-on-heroku/issues)
-[![GitHub forks](https://img.shields.io/github/forks/intra-sh/ghost-on-heroku)](https://github.com/intra-sh/ghost-on-heroku/network)
-[![GitHub stars](https://img.shields.io/github/stars/intra-sh/ghost-on-heroku)](https://github.com/intra-sh/ghost-on-heroku/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/endqwerty/ghost-on-heroku)](https://github.com/endqwerty/ghost-on-heroku/issues)
+[![GitHub forks](https://img.shields.io/github/forks/endqwerty/ghost-on-heroku)](https://github.com/endqwerty/ghost-on-heroku/network)
+[![GitHub stars](https://img.shields.io/github/stars/endqwerty/ghost-on-heroku)](https://github.com/endqwerty/ghost-on-heroku/stargazers)
 [![Deploy to Heroku](https://img.shields.io/badge/deploy%20to-heroku-6762a6)](https://heroku.com/deploy)
 
 ## Disclaimer
 This is a fork of:
+- https://github.com/intra-sh/ghost-on-heroku which in turn is a fork of:
 - https://github.com/SNathJr/ghost-on-heroku which in turn is a fork of:
 - https://github.com/cobyism/ghost-on-heroku
 
-I have forked and improved this repository as the original developer seemed to have abandoned his repo recently. In this repository I have upgraded ghost to ghost 4.X. If you are still interested with the ghost 3.x (SNathJr) or 1.0 (cobyism) version please visit the respective repository.
-
 ## Ghost version 4.X
-
-IMPORTANT: Ghost On Heroku will be bumped to 4.0 soon. Legacy versions are available on separate branch.
 
 The latest release of Ghost is now supported! Changes include:
 

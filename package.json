@@ -29,6 +29,6 @@
   "scripts": {
     "start": "node server.js",
     "preinstall": "npx npm-force-resolutions",
-    "postinstall": "bash bin/copy-themes.sh && bash bin/copy-webdav-plugin.sh"
+    "postinstall": "bash bin/copy-themes.sh && bash bin/copy-webdav-plugin.sh && bash bin/init-deployment"
   }
 }
