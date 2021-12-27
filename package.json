@@ -28,7 +28,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "preinstall": "npx npm-force-resolutions",
-    "postinstall": "bash bin/copy-themes.sh && bash bin/copy-webdav-plugin.sh"
+    "preinstall": "npx npm-force-resolutions"
   }
 }
