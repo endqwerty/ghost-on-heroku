@@ -10,13 +10,13 @@
   "private": true,
   "version": "4.32.0",
   "dependencies": {
-    "casper": "github:tryghost/casper#v4.1.0",
-    "ghost": "^4.32.0",
+    "casper": "github:tryghost/casper",
+    "ghost": "4.32.0",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.1.5",
     "ghost-webdav-storage-adapter": ">0.3.5",
     "london": "github:tryghost/london",
-    "massively": "github:tryghost/massively#1.0.2",
+    "massively": "github:tryghost/massively",
     "mysql": "^2.18.1"
   },
   "resolutions": {

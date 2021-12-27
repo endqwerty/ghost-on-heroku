@@ -13,7 +13,13 @@ This is a fork of:
 - https://github.com/SNathJr/ghost-on-heroku which in turn is a fork of:
 - https://github.com/cobyism/ghost-on-heroku
 
-## Ghost version 4.X
+### Tested items on this fork
+
+- JawsDB
+- AWS S3 storage
+- Mailgun
+
+## Ghost version 4.32.0
 
 The latest release of Ghost is now supported! Changes include:
 
@@ -164,6 +170,11 @@ heroku logs -t
 
 See more about [deploying to Heroku with git](https://devcenter.heroku.com/articles/git).
 
+### Cloud editing
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/endqwerty/ghost-on-heroku)
+
+This repo contains some settings for easy editiong on gitpod. This is especially useful for those on Windows or mobile (iPad) devices as the npm post-install script requires bash.
+
 ### Upgrading Ghost
 
 This repository locks Ghost to the "last tested good version" using the standard `package-lock.json` file. If you want to upgrade Ghost on your own,
@@ -171,6 +182,7 @@ you will need to clone or fork this repo as described above. You will then be ab
 
 ```bash
 npm upgrade ghost
+<Update the package.json version to match the new version>
 git add package.json package-lock.json
 git commit -m 'Update dependencies'
 git push heroku master
