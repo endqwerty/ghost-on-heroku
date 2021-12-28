@@ -22,7 +22,7 @@
     },
     "test": {
       "formation": {
-        "web": {
+        "test": {
           "quantity": 1,
           "size": "free"
         }
