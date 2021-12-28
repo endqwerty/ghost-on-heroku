@@ -21,8 +21,14 @@
       ]
     },
     "test": {
+      "formation": {
+        "web": {
+          "quantity": 1,
+          "size": "free"
+        }
+      },
       "scripts": {
-        "test": "npm start --development"
+        "test": "echo 'test'"
       }
     }
   },
