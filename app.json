@@ -12,6 +12,20 @@
     "mailgun",
     "cloudinary"
   ],
+  "environments":{
+    "review": {
+      "addons": [
+        "jawsdb",
+        "mailgun",
+        "cloudinary"
+      ]
+    },
+    "test": {
+      "scripts": {
+        "test": "npm start --development"
+      }
+    }
+  },
   "env": {
     "APP_PUBLIC_URL": {
       "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
