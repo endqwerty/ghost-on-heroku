@@ -8,5 +8,7 @@ vscode:
     - github.vscode-pull-request-github
     - github.vscode-codeql
     - eamodio.gitlens
-    - coenraads.bracket-pair-colorizer-2
     - dbaeumer.vscode-eslint
+    - hbenl.test-adapter-converter
+    - hbenl.vscode-test-explorer
+    - coenraads.bracket-pair-colorizer
