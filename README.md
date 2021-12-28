@@ -15,6 +15,7 @@ This is a fork of:
 
 ### Tested items on this fork
 
+- Node 14.16.1
 - JawsDB
 - AWS S3 storage
 - Mailgun
