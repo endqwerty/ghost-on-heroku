@@ -28,7 +28,8 @@
         }
       },
       "scripts": {
-        "test": "echo 'test'"
+        "test-setup": "npm run test-setup",
+        "test": "npm run test"
       }
     }
   },

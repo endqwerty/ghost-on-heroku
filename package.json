@@ -29,6 +29,10 @@
   "scripts": {
     "start": "node server.js",
     "preinstall": "npx npm-force-resolutions",
-    "postinstall": "bash bin/copy-themes.sh && bash bin/copy-webdav-plugin.sh"
+    "postinstall": "bash bin/copy-themes.sh && bash bin/copy-webdav-plugin.sh",
+    "gitpod-docker-build": "docker build -f .gitpod.Dockerfile -t gitpod-dockerfile-test .",
+    "gitpod-docker-run": "docker run -it gitpod-dockerfile-test bash",
+    "pretest": "echo 'pretest'",
+    "test": "echo 'test'"
   }
 }
